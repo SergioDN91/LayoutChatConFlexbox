@@ -1,0 +1,163 @@
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.sidebar {
+  flex: 0 0 280px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #bdbdbd;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.user-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-left h4 {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+}
+
+.user-left p {
+  font-size: 12px;
+  color: #828282;
+  margin: 0;
+}
+
+.user-left div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px; /* controla qué tan juntos están */
+}
+
+.user-icons {
+  display: flex;
+  gap: 15px; /* ajusta a gusto: 10px, 15px, 20px */
+}
+.user-icons i {
+  color: #828282;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.new-chat {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.new-chat button {
+  background: #a491d2;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #bdbdbd;
+  cursor: pointer;
+}
+
+.contact img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.contact h5 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.contact p {
+  margin: 0;
+  font-size: 13px;
+  color: gray;
+}
+.main {
+  flex: 1;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.main-content {
+  max-width: 500px;
+}
+
+
+.logo-box {
+  width: 320px;
+  height: 320px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.logo-box img {
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+    padding: 40px 20px;
+  }
+}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
